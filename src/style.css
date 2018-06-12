@@ -1,0 +1,67 @@
+.container {
+    padding: 30px 0;
+}
+html, body {
+    height: 100%;
+    color: #61DAFB;
+}
+body {
+    background: linear-gradient(270deg, rgb(36, 75, 102), rgb(36, 101, 102), rgb(81, 36, 102)) 0% 0% / 300% 300%;
+    animation: CustomAnimation 6s ease infinite;
+}
+
+h1 {
+    margin: 20px 0 15px 0;
+    text-align: center;
+}
+
+#main {
+    width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+}
+.container .list-group {
+    margin-bottom: 15px;
+}
+.list-group .list-group-item {
+    background-color: transparent;
+    border: 2px solid #fff;
+    text-transform: capitalize;
+}
+.list-group .list-group-item:hover {
+    background-color: #fff;
+    border: 2px solid #ddd;
+}
+.list-group .list-group-item button.close {
+    color: #60dbfb;
+    opacity: 1;
+}
+.list-group .list-group-item:hover div {
+    color: #61DAFB;
+}
+form.form-inline {
+    text-align: center;
+}
+.form-inline .form-control {
+    margin-right: 10px;
+}
+ul>li:hover {
+    background-color: #F5F5F5;
+}
+
+.done {
+    color: #fff;
+    text-decoration: line-through;
+}
+
+.undone {
+    color: #61DAFB;
+}
+
+.icon {
+    margin: 6px 10px 6px 0;
+}
